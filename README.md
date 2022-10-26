@@ -9,4 +9,5 @@ Realizada con Miro: https://miro.com/welcomeonboard/TWxiQW40c3FmdGdhQmdqNGZINnZq
 
 La pagina web se realizo con HTML y CSS. La misma cuenta con una parte para el usuario y otra para el pastlero.
 
+Demo de la web : https://devicepc.github.io/Pasteleria-El-jefe/
 
