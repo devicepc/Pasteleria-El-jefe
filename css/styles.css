@@ -1,0 +1,432 @@
+.Flag{
+    width: 40px;
+    height: 40px;
+
+}
+.navmenu{
+    float: left;
+    width: 100%;
+
+}  
+    @import url(https://fonts.googleapis.com/css?family=Raleway);
+h2 {
+  vertical-align: center;
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+.logo{
+    width: 150px;
+    height: 60px;
+    margin-bottom: -10px;
+}
+
+* {
+  font-family: "Raleway";
+  box-sizing: border-box;
+}
+.back{
+    background-image: url('./img/woodBack.jpg');
+}
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ 
+  background: linear-gradient(to left, #f46b45, #eea849);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFF;
+  height: 60px;
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  margin: 0 1rem;
+  font-size: 1.7rem;
+}
+
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+.btnwhatss{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    margin-left: 80%;
+}
+.slider{
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+}
+.slider img{
+  width: 100%;
+  height: 300px;
+  
+}
+.Pasteles, .Adornos{
+    width: 47%;
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-bottom: 30px;
+    float: left;
+    height: auto;
+    /* background-color: #466a75; */
+    flex-wrap: wrap;
+    border: #77DD77 4px solid;
+    border-radius: 15%;
+    
+}
+.h2Pasteles{
+  text-decoration: underline;
+  width: 100%;
+  
+}
+.MenuPasteles {
+  width: 40px;
+    height: 40px;
+    transition: all 0.3s;
+    
+}
+.MenuPasteles:hover{
+  margin-left: 5%;
+  transform: scale(2) ;
+}
+.card{
+  
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+/* para la parte de pedidos  */
+.h3Menu{
+    text-align: center;
+    font-size: 3rem;
+    
+}
+.h2Pedido{
+  text-align: center;
+}
+#casa{
+  text-align: center;
+  
+}
+.Sucursales{
+  margin: 0 auto;
+}
+
+.sucursales ul li{
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+th, td{
+  border: black 1px solid;
+  
+}
+
+.dataUser{
+  width: 20%;
+}
+
+footer{
+    width: 100%;
+    height: 270px;
+    background: linear-gradient(to left, #f46b45, #eea849);
+    color: #FFF;
+}
+.dataEmpresa{
+  width: 45%;
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-bottom: 30px;
+    float: left;
+   
+    
+}
+
+/* cards de pastelero */
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+#container {
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+    -webkit-perspective: 800px;
+            perspective: 800px;
+    text-align: center;
+}
+#container h1 {
+    color: #ECF6CE;
+    margin-bottom: 30px;
+}
+#container > hr {
+    border: none;
+    border: 1px solid #fff;
+    width: 80%;
+}
+.card {
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    width: 220px;
+    height: auto;
+    opacity: 0.85;
+    margin-left: 12%;
+}
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 300ms;
+    transition: -webkit-transform 300ms;
+    transition: transform 300ms;
+    transition: transform 300ms, -webkit-transform 300ms;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+    border-radius: 5px;
+}
+.front {
+    transform: rotateY(0deg);
+    background: -webkit-linear-gradient(top left, #84DD63, #009970);
+    background: linear-gradient(to bottom right, #84DD63, #009970);
+    text-align: center;
+    padding: 30px;
+}
+.back {
+    background: -webkit-linear-gradient(top left, #009970, #84DD63);
+    background: linear-gradient(to bottom right, #009970, #84DD63);
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    padding: 40px 15px;
+    color: #fff;
+}
+.card:hover .front {
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+}
+.card:hover .back {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+}
+
+.front .contact {
+    height: 120px;
+    width: 120px;
+    border: 5px solid #B2DBBF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.front .name {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+}
+.front .job {
+    color: #fff;
+}
+.front hr {
+    border: none;
+    color: #B2DBBF;
+    border: 1px solid;
+}
+.back p{
+  margin-left: -100px;
+}
+
+
+/*fin de cards pastelero */
+.hedinginfo{
+  margin-left: 5%;
+  margin-top: 1%;
+
+}
+.iconfooter{
+  width: 45px;
+  height: 45px;
+}
+
+/* social media */
+.box{
+  width: 55px;
+  height: 58px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 5px;
+  cursor: pointer;
+  margin: 0.6em;
+  transition: all .4s;
+  }
+  .box:hover{
+  width: 160px;
+  background: #c32aa3;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 50px #b315917c;
+  }
+  .box:nth-child(2):hover{
+  background: #1877f2;
+  box-shadow: 0 0 50px #1876f285;
+  }
+  .box:nth-child(3):hover{
+  width: 130px;
+  background: #1da1f2;
+  box-shadow: 0 0 50px #1da0f280;
+  }
+  .box:nth-child(4):hover{
+  background: #25d366;
+  box-shadow: 0 0 50px #25d3657e;
+  }
+  p{
+  transform: translate(60px);
+  }
+  .box .icon{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: all .4s;
+  }
+  .instagram{
+  background: #c32aa3;
+  }
+  .facebook{
+  background: #1877f2;
+  }
+  .twitter{
+  background: #1da1f2;
+  }
+  .whatsapp{
+  background: #25d366;
+  }
+  .box:hover .icon{
+  background: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);
+  color: rgb(59, 59, 59);
+  }
+  
+  
+  
+
+
+
+
+
+@media (max-width: 800px) {
+  .logo{
+    display: none;
+  }
+  .menu-button-container {
+    display: flex;
+    margin-top: 10px;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #333;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: #222;
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+}
