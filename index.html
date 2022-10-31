@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasteleria El Jefe</title>
     <link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./css/slider.css"> 
 </head>
 <body>
-    <header >
+    
         
    
     <!----- responsibe menu-->
@@ -21,12 +22,10 @@
         <div class='menu-button'></div>
       </label>
         <ul class="menu">
-          <li>Menu</li>
-          <li>Pedidos</li>
-    
-          <li>FAQ</li>
-          <li>Casa central: <a href="https://www.google.com/maps/place/Nuevocentro+Shopping/@-34.8689412,-56.1719842,17z/data=!3m1!4b1!4m5!3m4!1s0x959f807aabfe63b1:0xb6f6776baeb3a995!8m2!3d-34.8689412!4d-56.1697955" >bbcd 2345</a></li>
-          <li>Horario</li>
+            <li>Menu</li>
+          <a href="#PedidosUser"><li>Pedidos</li></a>
+           <a href="https://www.google.com/maps/place/Nuevocentro+Shopping/@-34.8689412,-56.1719842,17z/data=!3m1!4b1!4m5!3m4!1s0x959f807aabfe63b1:0xb6f6776baeb3a995!8m2!3d-34.8689412!4d-56.1697955" target="_blank"><li>Casa central: bbcd 2345 </li></a>
+          <li>Horario : M a D de 8 a 20 Hrs</li>
         </ul>
         <a href="indexeng.html"><img src="./img/england-flag.png" alt="lang-flag" class="Flag"></a>
         <a href="pastelero.html"><img src="./img/pastelero.webp" alt="lang-flag" class="Flag"></a>
@@ -37,42 +36,52 @@
         <img src="./img/pastelSlider.jpg" alt="">
 
     </section>
+    <h1 class="h3Menu">Elige tu combinacion favorita</h1>
     <section class="Pasteles">
-<h2 class="h2Pasteles"> Sabor de Pasteles </h2>
-<div class="card">
-<img src="./img/pastelBasico1.png" alt="Pastel Tradicional" class="MenuPasteles">
-<h3>Pastel  Sabor Coco</h3>
+        
+<h2 class="h2Pasteles" id="MenuUser"> Sabor de Pasteles </h2>
+<div class="card1">
+<img src="./img/tortaCoco.jpg" alt="Pastel Tradicional" class="MenuPasteles">
+<div class="cosas">
+<h3>  Sabor Coco</h3>
 <h4>Precio : ....$ 600 </h4>
 
 </div>
-<div class="card">
-    <img src="./img/tortaarcoiris.png" alt="Torta Arcoiris" class="MenuPasteles">
-    <h3> Pastel  Sabor Cafe</h3>
+</div>
+<div class="card1">
+    <img src="./img/tortaCafe.jpg" alt="Torta Arcoiris" class="MenuPasteles">
+    <div class="cosas">
+    <h3>   Sabor Cafe</h3>
     <h4>Precio : ....$ 1000 </h4>
+    </div>
     
     </div>
 
-<div class="card">
-    <img src="./img/muffin.png" alt="" class="MenuPasteles">
-    <h3> Pastel  Sabor Naranja</h3>
+<div class="card1">
+    <img src="./img/tortaNaranja.jpg" alt="" class="MenuPasteles">
+    <div class="cosas">
+    <h3>   Sabor Naranja</h3>
     <h4>Precio : ....$ 700</h4>
-    
+ 
     </div>
-    <div class="card">
-        <img src="./img/galletas1.png" alt="" class="MenuPasteles">
-        <h3>Pastel  Sabor Vainilla</h3>
+    </div>
+    <div class="card1">
+        <img src="./img/pastelBasico1.png" alt="" class="MenuPasteles">
+        <div class="cosas">
+        <h3>  Sabor Vainilla</h3>
         <h4>Precio : ....$ 600 </h4>
-        
+
         </div>
-        <div class="card">
-            <img src="./img/mantecados.png" alt="Mantecado" class="MenuPasteles">
-            <h3> Pastel  Sabor Chocolate</h3>
+        </div>
+        <div class="card1">
+            <img src="./img/TortaChocolate.jpg" alt="Mantecado" class="MenuPasteles">
+            <h3>   Sabor Chocolate</h3>
             <h4>Precio : ....$ 1000</h4>
             
             </div>
-            <div class="card">
-                <img src="./img/mantecados.png" alt="Mantecado" class="MenuPasteles">
-                <h3> Pastel  Sabor Limon</h3>
+            <div class="card1">
+                <img src="./img/tarta-limon-2.jpg" alt="Mantecado" class="MenuPasteles">
+                <h3>   Sabor Limon</h3>
                 <h4>Precio : ....$ 700</h4>
                 
                 </div>
@@ -83,74 +92,168 @@
     <section class="Adornos">
 <h2 class="h2Pasteles">  Decorados  de Pasteles </h2>
 
-<div class="card">
+<div class="card1">
     <img src="./img/merengue.png" alt="Pastel Tradicional" class="MenuPasteles">
-    <h3>Merengue</h3>
+    <div class="cosas">
+        <h3>Merengue</h3>
     <h4>Precio : ....$ 150</h4>
+    </div>
     
     </div>
-    <div class="card">
+    <div class="card1">
         <img src="./img/mezcla-frutos-rojos.webp" alt="Torta Arcoiris" class="MenuPasteles">
-        <h3>Frutos Rojos</h3>
-        <h4>Precio : ....$ 100 </h4>
         
+        <div class="cosas"><h3>Frutos Rojos</h3>
+        <h4>Precio : ....$ 100 </h4>
+  
+        </div>
         </div>
     
     
-        <div class="card">
-            <img src="./img/frutossecos.png" alt="" class="MenuPasteles">
-            <h3>Frutos Secos</h3>
-            <h4>Precio : ....$ 150</h4>
+        <div class="card1">
+            <img src="./img/slider/frutossecos.png" alt="" class="MenuPasteles">
             
+            <div class="cosas"><h3>Frutos Secos</h3>
+            <h4>Precio : ....$ 150</h4>
+   
             </div>
-            <div class="card">
+            </div>
+            <div class="card1">
                 <img src="./img/chocolate.webp" alt="Mantecado" class="MenuPasteles">
-                <h3>Chocolate</h3>
+               
+               <div class="cosas"> <h3>Chocolate</h3>
                 <h4>Precio : ....$ 200 </h4>
-                
+ 
+                </div>
                 </div>
 
-                <div class="card">
+                <div class="card1">
                     <img src="./img/buttercream.webp" alt="" class="MenuPasteles">
-                    <h3>Butter cream</h3>
+                 
+                 <div class="cosas">   <h3>Butter cream</h3>
                     <h4>Precio : ....$ 150</h4>
-                    
+
                     </div>
-                    <div class="card">
+                    </div>
+                    <div class="card1">
                         <img src="./img/mousse-de-chocolate-1.jpg" alt="Mantecado" class="MenuPasteles">
-                        <h3>Mousse</h3>
+                     
+                     <div class="cosas">   <h3>Mousse</h3>
                         <h4>Precio : ....$ 200 </h4>
+                        </div>
                         
                         </div>
     </section>
-    
+
+    <section class="responsivepleasures">
+    <h2 class="h2Slider">¿ Que pastel vas a elegir hoy ?</h2>
+
+    <div class="slider-frame">
+        <ul>
+            <li>
+                
+                 <div class="descriptionDecor"><p >Tote de Cafe</p></div>
+                 <img src="./img/slider/tortaCafe.jpg" alt="">
+                 <div class="Precio"><button >Precio : $600</button></div>
+            </li>
+            <li>
+                
+                 <div class="descriptionDecor"><p >Torta de Coco</p></div>
+                 <img src="./img/slider/tortaCoco.jpg" alt="">
+                 <div class="Precio"><button >Precio : $1000</button></div>
+            </li>
+            
+            <li>
+                
+                 <div class="descriptionDecor"><p >Torta de Naranja</p></div>
+                 <img src="./img/slider/tortaNaranja.jpg" alt="">
+                 <div class="Precio"><button >Precio : $700</button></div>
+            </li>
+            
+            <li>
+                
+                 <div class="descriptionDecor"><p >Torta de Chocolate</p></div>
+                 <img src="./img/slider/TortaChocolate.jpg" alt="">
+                 <div class="Precio"><button >Precio : $600</button></div>
+            </li>
+          <li>
+            
+             <div class="descriptionDecor"><p >Torta de Vainilla</p></div>
+             <img src="./img/slider/pastelBasico1.png" alt="">
+             <div class="Precio"><button >Precio : $1000</button></div>
+            </li>
+            
+            <li>
+                
+                 <div class="descriptionDecor"><p >Tota de Limon</p></div>
+                 <img src="./img/slider/tarta-limon-2.jpg" alt="">
+                 <div class="Precio"><button >Precio : $700</button></div>
+            </li> 
+            
+
+        </ul>
+    </div>
+
+    <h2 class="h2Slider">¿ Que Decorado utilizaras ?</h2>
+
+    <div class="slider-frame">
        
-    <section class="pedido" id="casa">
-        <h3 class="h3Menu">Pedidos</h3>
-        <h2 >Haz tu pedido Aqui</h2>
-        <form action="" method="get">
+    <ul>
+        <li>
+            <div class="descriptionDecor"><p >Merengue</p></div>
+            <img src="./img/slider/merengue.png" alt="">
+            <div class="Precio"><button >Precio : $150</button></div>
+            
+        </li>
+        <li>
+            
+             <div class="descriptionDecor"><p >Frutos secos</p></div>
+             <img src="./img/slider/frutossecos.png" alt="">
+            <div class="Precio"><button >Precio : $150</button></div>
+            
+        </li>
         
+        <li>
+            
+             <div class="descriptionDecor"><p >Frutos rojos</p></div>
+             <img src="./img/slider/mezcla-frutos-rojos.png" alt="">
+            <div class="Precio"><button >Precio : $100</button></div>
+            
+        </li>
         
-        <h2 class="h2Pedido">Primero pon tus datos </h2>
-        <label for="Nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Como te llamas?" required>
-        <br><br>
-        <label for="Telefono">Telefono</label>
-        <input type="text" id="nombre" name="nombre" placeholder="+598..." required>
-        <br><br>
-        <label for="Telefono">Correo electronico</label>
-        <input type="text" id="email" name="email" placeholder="example@examle.com" required>
-        <br><br>
-        <label for="Direccion">Direccion</label>
-        <input type="textarea" id="nombre" name="nombre" placeholder=" jghsadfgg 1234" required>
+        <li>
+            
+             <div class="descriptionDecor"><p >Chocolate</p></div>
+             <img src="./img/slider/chocolate.png" alt="">
+            <div class="Precio"><button >Precio : $200</button></div>
+            
+        </li>
+      <li>
         
-        <br><br>
-        <label for="Direccion">Notas</label>
-        <textarea rows="5" id="notas" name="notas" placeholder=" Aclaracion"></textarea>
+         <div class="descriptionDecor"><p >Butter Cream</p></div>
+         <img src="./img/slider/buttercream.png" alt="">
+        <div class="Precio"><button >Precio : $150</button></div>
         
-        <br><br>
-        <hr class="dataUser">
-        <br><br>
+        </li>
+        
+        <li>
+            
+             <div class="descriptionDecor"><p >Merengue</p></div>
+             <img src="./img/slider/mousse-de-chocolate-1.jpg" alt="">
+            <div class="Precio"><button >Precio : $200</button></div>
+            
+        </li> 
+        
+
+    </ul>
+</div>
+</section>
+    <h3 class="h3Menu">Pedidos</h3>
+    <section class="pedido" id="PedidosUser">
+        
+        <h2 class="h3Menu" >Haz tu pedido Aqui</h2>
+        <form action="" method="get" class="formPedido">
+        
         <h2 class="h2Pedido">¿ De que gusto prefires tu pastel ?, conbina dos opciones</h2>
         <input type="checkbox" id="Coco" name="Coco" value="Coco">
         <label for="Coco">Sabor Coco</label>
@@ -206,8 +309,26 @@
         <br>
         <hr class="dataUser">
         <br>
+        <h2 class="h2Pedido">Pon tus datos para el envio</h2>
+        <label class="Userdatapedido" for="Nombre">Nombre</label>
+        <input class="Userdatapedidoinput" type="text" id="nombre" name="nombre" placeholder="Como te llamas?" required>
+        <br><br>
+        <label class="Userdatapedido"for="Telefono">Telefono</label>
+        <input class="Userdatapedidoinput" type="text" id="nombre" name="nombre" placeholder="+598..." required>
+        <br><br>
+        <label class="Userdatapedido" for="Telefono">Correo electronico</label>
+        <input class="Userdatapedidoinput" type="text" id="email" name="email" placeholder="example@examle.com" required>
+        <br><br>
+        <label class="Userdatapedido" for="Direccion">Direccion</label>
+        <input class="Userdatapedidoinput" type="textarea" id="nombre" name="nombre" placeholder=" jghsadfgg 1234" required>
         
-        <button type="submit" class="btnenviar">Enviar pedido</button>
+        <br><br>
+        <label class="Userdatapedido" for="Direccion">Notas</label><br><br>
+        <textarea rows="5" id="notas" name="notas" placeholder=" Aclaracion"></textarea>
+        
+        <br><br>
+        
+        <a href="./pedido.html"><button type="submit" class="btnenviar">Enviar pedido</button></a>
         <br><br>
         </form>
     </section>
@@ -217,8 +338,6 @@
     <img src="./img/whatsapp-icon.png" alt="" class="btnwhatss">
     <footer>
         <div class="dataEmpresa">
-        <h3 class="hedinginfo">Locales</h3>
-        <h3 class="hedinginfo">Telefono</h3>
         <h3 class="hedinginfo">Soliciata presupuesto</h3>
         <h3 class="hedinginfo">Domicilio</h3>
         <h3 class="hedinginfo">Sugerencias</h3>
