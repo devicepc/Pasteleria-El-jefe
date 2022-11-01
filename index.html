@@ -43,16 +43,16 @@
 <div class="card1">
 <img src="./img/tortaCoco.jpg" alt="Pastel Tradicional" class="MenuPasteles">
 <div class="cosas">
-<h3>  Sabor Coco</h3>
-<h4>Precio : ....$ 600 </h4>
+<h3 id="tortas1">  </h3>
+<h4 id="precioPastel1">Precio : ....$ 600 </h4>
 
 </div>
 </div>
 <div class="card1">
     <img src="./img/tortaCafe.jpg" alt="Torta Arcoiris" class="MenuPasteles">
     <div class="cosas">
-    <h3>   Sabor Cafe</h3>
-    <h4>Precio : ....$ 1000 </h4>
+    <h3 id="tortas2">   </h3>
+    <h4 id="precioPastel2">Precio : ....$ 1000 </h4>
     </div>
     
     </div>
@@ -60,29 +60,29 @@
 <div class="card1">
     <img src="./img/tortaNaranja.jpg" alt="" class="MenuPasteles">
     <div class="cosas">
-    <h3>   Sabor Naranja</h3>
-    <h4>Precio : ....$ 700</h4>
+    <h3 id="tortas3">   </h3>
+    <h4 id="precioPastel3">Precio : ....$ 700</h4>
  
     </div>
     </div>
     <div class="card1">
         <img src="./img/pastelBasico1.png" alt="" class="MenuPasteles">
         <div class="cosas">
-        <h3>  Sabor Vainilla</h3>
-        <h4>Precio : ....$ 600 </h4>
+        <h3 id="tortas4">  </h3>
+        <h4 id="precioPastel4">Precio : ....$ 600 </h4>
 
         </div>
         </div>
         <div class="card1">
             <img src="./img/TortaChocolate.jpg" alt="Mantecado" class="MenuPasteles">
-            <h3>   Sabor Chocolate</h3>
-            <h4>Precio : ....$ 1000</h4>
+            <h3 id="tortas5">  </h3>
+            <h4 id="precioPastel5">Precio : ....$ 1000</h4>
             
             </div>
             <div class="card1">
                 <img src="./img/tarta-limon-2.jpg" alt="Mantecado" class="MenuPasteles">
-                <h3>   Sabor Limon</h3>
-                <h4>Precio : ....$ 700</h4>
+                <h3 id="tortas6">   </h3>
+                <h4 id="precioPastel6">Precio : ....$ 700</h4>
                 
                 </div>
              
@@ -95,16 +95,16 @@
 <div class="card1">
     <img src="./img/merengue.png" alt="Pastel Tradicional" class="MenuPasteles">
     <div class="cosas">
-        <h3>Merengue</h3>
-    <h4>Precio : ....$ 150</h4>
+        <h3 id="decorados1"></h3>
+    <h4 id="preciodecorados1"></h4>
     </div>
     
     </div>
     <div class="card1">
         <img src="./img/mezcla-frutos-rojos.webp" alt="Torta Arcoiris" class="MenuPasteles">
         
-        <div class="cosas"><h3>Frutos Rojos</h3>
-        <h4>Precio : ....$ 100 </h4>
+        <div class="cosas"><h3 id="decorados2"></h3>
+        <h4 id="preciodecorados2"> </h4>
   
         </div>
         </div>
@@ -113,16 +113,16 @@
         <div class="card1">
             <img src="./img/slider/frutossecos.png" alt="" class="MenuPasteles">
             
-            <div class="cosas"><h3>Frutos Secos</h3>
-            <h4>Precio : ....$ 150</h4>
+            <div class="cosas"><h3 id="decorados3"></h3>
+            <h4 id="preciodecorados3"></h4>
    
             </div>
             </div>
             <div class="card1">
                 <img src="./img/chocolate.webp" alt="Mantecado" class="MenuPasteles">
                
-               <div class="cosas"> <h3>Chocolate</h3>
-                <h4>Precio : ....$ 200 </h4>
+               <div class="cosas"> <h3 id="decorados4"></h3>
+                <h4 id="preciodecorados4"> </h4>
  
                 </div>
                 </div>
@@ -130,16 +130,16 @@
                 <div class="card1">
                     <img src="./img/buttercream.webp" alt="" class="MenuPasteles">
                  
-                 <div class="cosas">   <h3>Butter cream</h3>
-                    <h4>Precio : ....$ 150</h4>
+                 <div class="cosas">   <h3 id="decorados5"></h3>
+                    <h4 id="preciodecorados5"></h4>
 
                     </div>
                     </div>
                     <div class="card1">
                         <img src="./img/mousse-de-chocolate-1.jpg" alt="Mantecado" class="MenuPasteles">
                      
-                     <div class="cosas">   <h3>Mousse</h3>
-                        <h4>Precio : ....$ 200 </h4>
+                     <div class="cosas">   <h3 id="decorados6"></h3>
+                        <h4 id="preciodecorados6"> </h4>
                         </div>
                         
                         </div>
@@ -255,56 +255,31 @@
         <form action="" method="get" class="formPedido">
         
         <h2 class="h2Pedido">¿ De que gusto prefires tu pastel ?, conbina dos opciones</h2>
-        <input type="checkbox" id="Coco" name="Coco" value="Coco">
-        <label for="Coco">Sabor Coco</label>
-        <input type="number" id="CocoNumber" name="CocoNumber" placeholder="¿ Cuantos quieres?" >
-        <br><br>
-        <input type="checkbox" id="Cafe" name="Cafe" value="Cafe">
-        <label for="Cafe"> Sabor Cafe</label>
-        <input type="number" id="CafeNumber" name="CafeNumber" placeholder="¿ Cuantos quieres?" >
-        <br><br>
-        <input type="checkbox" id="Naranja" name="Naranja" value="Naranja">
-        <label for="Naranja"> Sabor Naranja </label>
-        <input type="number" id="NaranjaNumber" name="NaranjaNumber" placeholder="¿ Cuantos quieres?" >
-        <br><br>
-        <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla">
-        <label for="Vainilla"> Sabor Vainilla</label>
-        <input type="number" id="VainillaNumber" name="VainillaNumber" placeholder="¿ Cuantos quieres?" >
-        <br><br>
-        <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
-        <label for="Chocolate"> Sabor Chocolate </label>
-        <input type="number" id="ChocolateNumber" name="ChocolateNumber" placeholder="¿ Cuantos quieres?" >
-        <br><br>
-        <input type="checkbox" id="Limon" name="Limon" value="ChocolateLimon">
-        <label for="Limon">Sabor Limon</label>
-        <input type="number" id="LimonNumber" name="LimonNumber" placeholder="¿ Cuantos quieres?" >
+        <select id="sabroPastel" class="selectpastel" required>
+            <option value="" id="">Elige un gusto</option>
+
+            <option value="Cafe" id="optionGusto1"></option>
+            <option value="Chocolate" id="optionGusto2"></option>
+            <option value="Coco" id="optionGusto3"></option>
+            <option value="Limon" id="optionGusto4"></option>
+            <option value="Naranja" id="optionGusto5"></option>
+            <option value="Vainilla" id="optionGusto6"></option>
+          </select>
+
+
         <br><br>
         
         
         <h2 class="h2Pedido">De que prefieres el decorado ?</h2>
-        <input type="checkbox" id="ButterCream" name="ButterCream" value="ButterCream">
-        
-        <label for="ButterCream">Butter Cream</label>
-        
-        <br><br>
-        <input type="checkbox" id="ChocolateDecorado" name="ChocolateDecorado" value="ChocolateDecorado">
-        <label for="ChocolateDecorado"> Chocolate</label>
-        
-        <br><br>
-        <input type="checkbox" id="FrutosRojos" name="FrutosRojos" value="FrutosRojos">
-        <label for="FrutosRojos">Frutos Rojos</label>
-        
-        <br><br>
-        <input type="checkbox" id="FrutosSecos" name="FrutosSecos" value="FrutosSecos">
-        <label for="FrutosSecos"> Frutos Secos</label>
-        
-        <br><br>
-        <input type="checkbox" id="Merengue" name="Merengue" value="Merengue">
-        <label for="Merengue">Merengue</label>
-        
-        <br><br>
-        <input type="checkbox" id="Muosse" name="Muosse" value="Muosse">
-        <label for="Muosse">Muosse</label>
+        <select id="DecorPastel" class="selectpastel" required>
+            <option value="" id="">Elige un decorado</option>
+            <option value="Cafe" id="optionDecor1"></option>
+            <option value="Chocolate" id="optionDecor2"></option>
+            <option value="Coco" id="optionDecor3"></option>
+            <option value="Limon" id="optionDecor4"></option>
+            <option value="Naranja" id="optionDecor5"></option>
+            <option value="Vainilla" id="optionDecor6"></option>
+          </select>
         <br>
         <br>
         <hr class="dataUser">
@@ -314,13 +289,13 @@
         <input class="Userdatapedidoinput" type="text" id="nombre" name="nombre" placeholder="Como te llamas?" required>
         <br><br>
         <label class="Userdatapedido"for="Telefono">Telefono</label>
-        <input class="Userdatapedidoinput" type="text" id="nombre" name="nombre" placeholder="+598..." required>
+        <input class="Userdatapedidoinput" type="text" id="Telefono" name="nombre" placeholder="+598..." required>
         <br><br>
         <label class="Userdatapedido" for="Telefono">Correo electronico</label>
         <input class="Userdatapedidoinput" type="text" id="email" name="email" placeholder="example@examle.com" required>
         <br><br>
         <label class="Userdatapedido" for="Direccion">Direccion</label>
-        <input class="Userdatapedidoinput" type="textarea" id="nombre" name="nombre" placeholder=" jghsadfgg 1234" required>
+        <input class="Userdatapedidoinput" type="textarea" id="address" name="nombre" placeholder=" jghsadfgg 1234" required>
         
         <br><br>
         <label class="Userdatapedido" for="Direccion">Notas</label><br><br>
@@ -328,7 +303,8 @@
         
         <br><br>
         
-        <a href="./pedido.html"><button type="submit" class="btnenviar">Enviar pedido</button></a>
+        <button type="submit" class="btnenviar" id="buttonenviar">Añadir al carrito </button>
+
         <br><br>
         </form>
     </section>
@@ -367,5 +343,8 @@
         </div>
 
     </footer>
+   
+    <script src="./js/functionuserpage.js" type="module"></script>
+    <script src="./js/guardarpedidos.js"  ></script>
 </body>
 </html>
