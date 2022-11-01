@@ -393,7 +393,7 @@ footer{
     font-weight: bolder;
     color: #fff;
     background: linear-gradient(to left, #f46b45, #eea849); 
-    width: 200px;
+    width: auto;
     height: 70px;
     border-radius: 5%;
     margin-top: 20px;
@@ -407,14 +407,22 @@ footer{
     float: left;
     font-size: 1.32rem;
     }
-
+.selectpastel{
+  width: 50%;
+  height:30px;
+}
+.selectpastel option{
+  font-size: 20px;
+}
 #SectionPastelero{
   height: auto;
 
 }
 .tableStock{
-  width: 100%;
+  width: 90%;
   height: 300px;
+  margin-left: 3%;
+  margin-right: 3%;
 }
  /* pagina de pedidos */
  .Ftoeleccion{
