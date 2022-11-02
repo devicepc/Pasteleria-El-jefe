@@ -1,35 +1,38 @@
-// botones
 
-const btnvisa2 = document.getElementById('btnPayVisa');
+    
+    const stock  = document.getElementById('stock');
+    const stockbtn = document.getElementById('stockbtn'); 
+    const pagosPastelero  = document.getElementById('pagosPastelero');
+    const pagosbtn = document.getElementById('pagosbtn');
 
-const btnpayPal  = document.getElementById('btnPayPay');
+    stockbtn.addEventListener('click', ()=>{
+        if( stock.style.display === "block") {
+            stock.style.display = "none";
+            
+          } else {
+            stock.style.display = "block";
+            window.location.href = "#stock";
+          }
+          });
 
-// cajas
-
-const Visa = document.getElementById('Visa');
-
-const payPal  = document.getElementById('payPal');
-
-
-// funciones en botones
-btnvisa2.addEventListener('click', ()=>{
-    if( Visa.style.display === "none") {
-        Visa.style.display = "block";
+          
         
-      } else {
-        Visa.style.display = "none";
-      }
-      });
+          pagosbtn.addEventListener('click', ()=>{
+            
+              if( pagosPastelero.style.display === "none") {
+                  pagosPastelero.style.display = "block";
+                  
+                } else {
+                  pagosPastelero.style.display = "none";
+                  window.location.href = "#pagos";
+                }
+                });
+                  
+                
 
-btnpayPal.addEventListener('click', ()=>{
-  if(payPal.style.display==='none'){
-    payPal.style.display= "block";
-  }
-  else{
-    payPal.style.display="none";
-  }
-}); 
+  
 
-   
+    
         
+    
 

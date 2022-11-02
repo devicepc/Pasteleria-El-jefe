@@ -1,0 +1,58 @@
+div2{
+    position: absolute;
+    padding-top: 150px;
+    margin-left: -13%;
+    font-weight: bolder;
+    
+}
+div3{
+    position: absolute;
+    padding-top: 180px;
+    margin-left: -13%;
+    font-weight: bolder;
+    
+}
+div4{
+    position: absolute;
+    padding-top: 80px;
+    margin-left: -13%;
+    margin-top: 40px;
+    font-weight: bolder;
+   
+}
+div5{
+    position: absolute;
+    padding-top: 90px;
+    margin-left: -13%;
+    font-weight: bolder;
+    
+}
+div6{
+    position: absolute;
+    padding-top: 30px;
+    margin-left: -13%;
+    font-weight: bolder;
+    
+}
+div7{
+    position: absolute;
+    padding-top: 30px;
+    margin-left: -13%;
+    margin-top: 40px;
+    font-weight: bolder;
+   
+}
+div{
+    font-weight: bolder;
+}
+
+#prueba{
+    height: 200px;
+    text-align: center;
+    width: 520px;
+    margin-left: 20%;
+    background-color: rgb(190, 207, 207);
+}
+
+
+/* divs de pastelero importando datos pedido */

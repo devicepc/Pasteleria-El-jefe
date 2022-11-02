@@ -451,6 +451,7 @@ margin-bottom: 40px;
 .Payment{
   margin-left: 30%;
   margin-bottom: 70px;
+  
 }
 .Payment img{
   margin-right: 8%;
@@ -463,6 +464,15 @@ margin-bottom: 40px;
   margin-top: 40px;
 display: none;
  
+}
+#pagosPastelero{
+  display: none;
+}
+#stock{
+  display: none;
+}
+#PastelesPedido{
+  margin-bottom: 80px;
 }
 
 .tarjeta h3{

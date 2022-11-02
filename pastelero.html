@@ -22,10 +22,10 @@
       </label>
         <ul class="menu">
           <li>Pastelero</li>
-          <li>Stock</li>
+          <li id="stockbtn">Stock</li>
     
-          <li>Pagos</li>
-           <a href="pastelero.html" ><li>Soporte: </li></a>
+          <li id="pagosbtn">Pagos</li>
+           <a href="pastelero.html" ><li>Soporte </li></a>
         </ul>
         <a href="indexeng.html"><img src="./img/england-flag.png" alt="lang-flag" class="Flag"></a>
         <a href="index.html"><img src="./img/Salir.png" alt="Salir" class="Flag"></a>
@@ -43,16 +43,22 @@
     <section class="pedido" id="SectionPastelero">
         <h3 class="h3Menu">Pedidos</h3>
         <div class='card'>
-            <div class='front'>
+            <div class='front' id="frontNew">
               <img src='./img/newpedido.png' class='contact' />
-              <span class='name'>Pastel de Limon</span>
+              <!-- <span class='name'>Pastel de Limon</span>
               <hr>
               <span class='job'>  Chocolate y Frutos Rojos </span>
+               -->
             </div>
-            <div class='back'>
+            <div class='back' id="backNew">
+              <button id="pronto">Pedido pronto</button>
+              <br> <br>
+              <button id="demorado">Marcar como demorado</button>
               <span>Detalles:</span>
-              <p>Cliente:<br> xxxxxx, <br>tel 21343,<br> Direccion pobox</p>
+              <!-- <p>Cliente:<br> xxxxxx, <br>tel 21343,<br> Direccion pobox</p>
               <p>Detalles:<br> Pastel de regalo Tia Pocha</p>
+              <br> -->
+              
               
              
             </div>
@@ -88,8 +94,10 @@
           </div>
         </div>
     </section>
-   <section class="stock">
-    <h2>Stock</h2>
+    <h2>Stock ( para ver stock , click en menu => stock)</h2>
+    <h2>Pagos ( para ver Pagos , click en menu => Pagos)</h2>
+   <section class="stock" id="stock">
+   <h2> Stock</h2>
     <table class="tableStock">
       <tr>
         <th>Pastel</th>
@@ -169,7 +177,8 @@
 </table>
 
 
-<section class="Pagos">
+
+<section class="Pagos" id="pagosPastelero">
 
   <h2>Pagos</h2>
 
@@ -259,5 +268,8 @@
 
     </footer>
     <script src="./js/functionsPastelero.js" type="module"></script>
+    <script src="./js/pedidosPastelero.js"></script>
+    <script src="./js/buttons2.js"></script>
+    <script src="./js/buttons3.js"></script>
 </body>
 </html>

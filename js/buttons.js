@@ -5,8 +5,8 @@ const btnDeposito = document.getElementById('btnPaydepo');
 const btnvisa2 = document.getElementById('btnPayVisa');
 
 const btnpayPal  = document.getElementById('btnPayPay');
-
-
+const enviarpedidoPastelero = document.getElementById('btnenviarPedido')
+const btnresetPedido = document.getElementById('btnresetPedido');
 // cajas
 const master = document.getElementById('master');
 
@@ -59,5 +59,14 @@ btnDeposito.addEventListener('click', ()=>{
 
 
    
-        
+              btnenviarPedido.addEventListener('click', () => {
+                window.location.href = "./pastelero.html";
+              }
+              
+              )      
 
+              btnresetPedido.addEventListener('click', () => {
+                window.location.href = "./index.html";
+              }
+              
+              ) 
