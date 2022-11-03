@@ -56,3 +56,40 @@ div{
 
 
 /* divs de pastelero importando datos pedido */
+@media  (max-width: 600px){
+  
+	#prueba{
+        margin-left: 0%;
+        text-align: left;
+        width: auto;
+    }
+   
+  
+    div{
+        margin-left: 13%;
+    }
+.Payment {
+    margin-left: 10%;
+}
+#Deposito, #Visa, #payPal, #master{
+    margin-left: -10%;
+    width: auto;
+}
+#Deposito p{
+    margin-left: -10%;
+}
+.tarjeta input{
+    width: 70%;
+    margin-left: 12%;
+}
+#payPal p{
+    margin-left: -10%;
+}
+#btnresetPedido{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#demorado{
+    padding-bottom: 10px;
+}
+  }

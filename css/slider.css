@@ -69,3 +69,25 @@ width: 320px;
 	75% {margin-left: -500%;}
 	100% {margin-left: -500%;}
 }
+
+@media  (max-width: 600px){
+  
+	.descriptionDecor p{
+	  font-size: 30px;
+	  margin-left: 0;
+	  width: 250px;
+	}
+	.h2Pedido{
+		
+		font-size: 1.7rem;
+	}
+	.selectpastel {
+		width: 70%;
+	}
+	.btnenviar{
+		font-size: 28px;
+	}
+	.Ftoeleccion{
+		margin-left: 100%;
+	}
+  }

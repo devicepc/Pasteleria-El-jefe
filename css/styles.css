@@ -651,3 +651,16 @@ font-size: 1.32rem;
 
 
 }
+
+@media  (max-width: 600px){
+  
+	
+	.Ftoeleccion{
+		margin-left: 23%;
+	}
+  .h3Descripcion{
+    text-align: center;
+
+  }
+  }
+
